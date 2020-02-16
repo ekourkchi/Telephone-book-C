@@ -21,9 +21,6 @@
          ***********************
          Enter your choice (1..6):  
 
-## Demo
-See `demo.pdf`.
-https://github.com/ekourkchi/Telephone-book-C/blob/master/demo.pdf
 
 
    - - - -
