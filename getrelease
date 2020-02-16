@@ -1,0 +1,32 @@
+#!/usr/bin/csh
+
+setenv  SCCS_DIR  "~/Project1_SCCS/"
+
+setenv CURRENT_DIR `pwd`
+
+cd $SCCS_DIR
+
+ sccs get -e   database.c
+ sccs get -e   database_functions.c
+ sccs get -e   databaseio.c
+ sccs get -e   database_functions.h
+ sccs get -e   databaseio.h
+ sccs get -e   record.h
+ sccs get -e   Database.txt
+ sccs get -e   Makefile
+ 
+mv database.c $CURRENT_DIR/.
+mv database_functions.c $CURRENT_DIR/.
+mv databaseio.c $CURRENT_DIR/.
+mv database_functions.h $CURRENT_DIR/.
+mv databaseio.h $CURRENT_DIR/.
+mv record.h $CURRENT_DIR/.
+mv Database.txt $CURRENT_DIR/.
+mv Makefile $CURRENT_DIR/.
+
+cd $CURRENT_DIR
+
+
+
+
+ 
